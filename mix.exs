@@ -31,7 +31,7 @@ defmodule ElixirNsq.Mixfile do
   defp deps do
     [
       {:poison, "~> 1.5.0"},
-      {:httpotion, "~> 2.1.0"},
+      {:httpotion, github: "luizsoares/httpotion", branch: "master"},
       {:uuid, "~> 1.1.2"},
       {:socket, "~> 0.3.1"},
 
